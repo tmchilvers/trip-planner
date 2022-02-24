@@ -1,8 +1,10 @@
 # trip-planner
-[![Build Status](https://api.travis-ci.com/barndollarmusic/gsheets-timecode.svg?branch=main)](https://github.com/tmchilvers/trip-planner) **|**  v.01.01 **|  Author:** [Tristan Chilvers](https://www.tristanchilvers.com/) **| License:** [MIT License](LICENSE).
+**|**  v.01.01 **|  Author:** [Tristan Chilvers](https://www.tristanchilvers.com/) **| License:** [MIT License](LICENSE) **|**
 
 <br>
-<p align="center"><b>A SET OF GOOGLE CUSTOM FUNCTIONS FOR DYNAMIC CALENDAR & FINANCE SHEETS</b></p>
+<p align="center"><b>A SET OF GOOGLE CUSTOM FUNCTIONS FOR A DYNAMIC TRIP PLANNER SPREADSHEET</b></p>
+
+                            [DOWNLOAD](#create-your-own-vacation-planner)
 
 ---
 
@@ -11,7 +13,7 @@
 For my vacations, I often times create a trip outline with Google Sheets. These are rough calendar outlines with every event *manually* inputted and adjusted to fit into the calendar - way too slow and tedious!
 <br><br>
 
-While there are many great vacation planners online, I wanted to focus on two qualities for my trip planner: 
+While there are many great vacation planners online, I wanted to focus on two qualities for my own trip planner: 
 <br><p align="center">
   <ins><b>Automated</ins></b> and <ins><b>Dynamic</ins></b> Calendar & Finance Functionality
 </p>
@@ -33,7 +35,7 @@ While there are many great vacation planners online, I wanted to focus on two qu
 
 ## TRIP DETAILS
 
-Handles global details relevant to the trip:
+The *Trip Details* sheet handles global details relevant to the trip:
 - Trip Dates, Need Passport, Budget, etc.
 
 You only need to input data into the **white cells** (the grey cells are calculated and displayed for your convenience)
@@ -43,9 +45,9 @@ Whenever you update the **start date** and **end date** cells, it will automatic
 <p align="center"><b><ins>NOTE: DO NOT EDIT EVENTS UNTIL AFTER THE CALENDAR HAS FINISHED UPDATING</ins></b></p>
 
 <p align="center">
-<img src="trip-details-date-change.gif" alt="trip-details-date-change-preview" style="width:45%;"/>
+<img src="/../main/trip-details-date-change.gif" alt="trip-details-date-change-preview" style="width:45%;"/>
   <br><br>
-<img src="calendar-date-change.gif" alt="calendar-date-change-preview" style="width:75%;"/>
+<img src="/../main/calendar-date-change.gif" alt="calendar-date-change-preview" style="width:75%;"/>
 </p>
 
 <br>
@@ -55,128 +57,124 @@ If you select **Yes** for **Need Passport?**, it will mark **red** next to each 
 <br>
 
 <p align="center">
-<img src="passport-check.png" alt="passport-check-preview" style="width:100%;"/>
+<img src="/../main/passport-check.png" alt="passport-check-preview" style="width:100%;"/>
 </p>
 
 <br>
 
-Depending on your selection for **Miles** or **km** for, it will update the column name under the events sheet to correspond with your choice of units.
+Depending on your selection for **Miles** or **km** for, it will update the column name under the *Events Sheet* to correspond with your choice of units.
 
 <br>
 
 <p align="center">
-<img src="miles_or_km.png" alt="calendarPreview" style="width:19%;"/>
-<img src="miles_or_km_02.png" alt="calendarPreview" style="width:30%;"/>
-<img src="miles_or_km_03.png" alt="calendarPreview" style="width:30%;"/>
+<img src="/../main/miles_or_km.png" alt="calendarPreview" style="width:19%;"/>
+<img src="/../main/miles_or_km_02.png" alt="calendarPreview" style="width:30%;"/>
+<img src="/../main/miles_or_km_03.png" alt="calendarPreview" style="width:30%;"/>
 </p>
 
 <br>
 
 ## TRAVELERS
 
+The *Travelers* sheet handles each traveler's information:
+- Name, Email, Phone, etc.
+
+
+<br>
+
+<p align="center">
+<img src="/../main/passport-check.png" alt="travelers-preview" style="width:100%;"/>
+</p>
+
+<br>
+
+The amount of money each traveler has paid in relationship to the trip's budget is displayed under the *Finance Sheet*.
+
+<br>
+
+<p align="center">
+<img src="/../main/traveler-finance-preview.png" alt="finance-preview" style="width:60%;"/>
+</p>
+
+<br>
+
 ## EVENTS
 
-The Calendar and Finance sheets are built by *events*. An *event* is where you input all data relevent to each event on your trip (transporation, shopping, eating, etc.).
+The *Events Sheet* is the backbone of this software - the *Calendar Sheet* and *Finance Sheet* will adjust according to the data inputted here.
 
-![Preview of spreadsheet using dynamic event functions](Events_Preview.png)
+This planner is structured by **events**. An **event** is a row containing all data relevent to that event on your trip:
+
+- Event name, date, time, cost, split charge, etc.
+
+<br>
+
+<p align="center">
+<img src="/../main/Events_Preview.png" alt="events-preview" style="width:100%;"/>
+</p>
+
+<br>
+
+Each event is labeled as a type, which is then categorized and displayed on the *Calendar Sheet* and *Finance Sheet*:
+
+- **Transportation, Lodging, Food, Activity, Shopping, and MISC**
+
+<br>
+
+Once you have inputted your events, you can update the calendar by clicking the **CLICK TO UPDATE CALENDAR** button on the top-left corner.
+
+<p align="center"><b><ins>NOTE: DO NOT EDIT EVENTS UNTIL AFTER THE CALENDAR HAS FINISHED UPDATING</ins></b></p>
+
+<p align="center">
+<img src="/../main/update-calendar-events.gif" alt="update-calendar-events-preview" style="width:45%;"/>
+  <br><br>
+<img src="/../main/update-calendar-result.gif" alt="update-calendar-result-preview" style="width:75%;"/>
+</p>
 
 ## CALENDAR
 
+The *Calendar Sheet* outlines each day of your trip into a clean, dynamic layout of your events.
+
+Each event is of a certain type (Transportation, Lodging, etc.) and is displayed here by the type's corresponding color (e.g. Red for Transportation).
+
+It showcases the distance travelled each day (useful for Road Trips), along with the calculated cost of gas.
+
+<br>
+
+<p align="center">
+<img src="/../main/Calendar_Preview.png" alt="calendar-preview" style="width:75%;"/>
+</p>
+
+<br>
+
+You can also update the calendar by clicking the **CLICK TO UPDATE CALENDAR** button on the top-left corner.
+
+<p align="center"><b><ins>NOTE: DO NOT EDIT EVENTS UNTIL AFTER THE CALENDAR HAS FINISHED UPDATING</ins></b></p>
+
+<p align="center">
+<img src="/../main/update-calendar.gif" alt="update-calendar-preview" style="width:35%;"/>
+  <br><br>
+<img src="/../main/update-calendar-result.gif" alt="update-calendar-result-preview" style="width:75%;"/>
+</p>
+
 ## FINANCE
 
-# Use in your own spreadsheets
-The easiest way to use these functions is by making a copy of this example spreadsheet template:
-- [Music Log Template](https://docs.google.com/spreadsheets/d/1xPi0lxi4-4NmZmNoTXXoCNa0FGIAhwi2QCPjTABJCw4/edit?usp=sharing)
+The *Finance Sheet* outputs the financial information relevant to the trip:
+- Budget vs Final Cost, where was the money spent (transportation, food, etc.), cost of each traveler, etc.
 
-Or if you want to start from your own existing spreadsheet, go to **Tools > Script editor** and
-paste [this code](Code.js) into `Code.gs`.
+<br>
 
-# Using custom functions
-Here's a spreadsheet that will walk you through how to use all of these functions:
-- [Tutorial: gsheets-timecode](https://docs.google.com/spreadsheets/d/1QephM04_TBnmzdKqT3WXLeGo0JNX1N1SlD3_BdpfY0E/edit?usp=sharing)
+<p align="center">
+<img src="/../main/finance-preview.png" alt="finance-preview" style="width:75%;"/>
+</p>
 
-The last 2 arguments to every function below are `frameRate` and `dropType` values.
+<br>
 
-Data validation list of supported `frameRate` values (see template above for example usage):
-```
-23.976,24.000,25.000,29.970,30.000,47.952,48.000,50.000,59.940,60.000
-```
-**IMPORTANT**: The `frameRate` value must be **Plain text** type (not a number) and include exactly
-2 or 3 decimal digits after a period. This is to avoid any possible confusion over *e.g.* whether
-`24` means `23.976` or `24.000`.
+---
 
-Data validation list of `dropType` values (see template above for example usage):
-```
-non-drop,drop
-```
+# CREATE YOUR OWN VACATION PLANNER
+Make a copy of this planner template **(check for updates!)**:
+- [Trip Planner (TEMPLATE)](https://docs.google.com/spreadsheets/d/1B_dnR0HjFd-yClSEWd2_BwNsqBRuEJXZhJbATznj11U/edit?usp=sharing)
 
-## Most common functions
-All the examples below show timecode values as *Plain text* (quoted string), but you can instead use an
-integer *Number* format input (which can be more convenient to type in, along with a custom number format
-of `00\:00\:00\:00`).
+Or you can copy/edit this code directly in your project by going to **Tools > Script editor** and
+pasting [this code](trip.js) into `trip.gs`.
 
-```JavaScript
-=TC_TO_WALL_SECS("00:00:01:02", "50.00", "non-drop")
-```
-- Yields `1.04` secs (true seconds of wall time measured from `00:00:00:00`).
-
-```JavaScript
-=WALL_SECS_BETWEEN_TCS("00:00:01:03", "00:02:05:11", "24.00", "non-drop")
-```
-- Yields `124.33333333...` secs (true seconds of wall time between the timecodes).
-
-```JavaScript
-=WALL_SECS_TO_DURSTR(3765)
-```
-- Yields `"1h 02m 45s"` (a human-readable duration string). Rounds to nearest second.
-
-```JavaScript
-=WALL_SECS_TO_TC_LEFT(1.041, "50.00", "non-drop")
-```
-- Yields `"00:00:01:02"`, the timecode of the closest frame that is exactly at or
-before (*i.e.* to the left of) the given `wallSecs` value of `1.041` (true seconds of
-wall time measured from `00:00:00:00`).
-
-```JavaScript
-=WALL_SECS_TO_TC_RIGHT(1.041, "50.00", "non-drop")
-```
-- Yields `"00:00:01:03"`, the timecode of the closest frame that is exactly at or
-after (*i.e.* to the right of) the given `wallSecs` value of `1.041` (true seconds of
-wall time measured from `00:00:00:00`).
-
-## Other functions (more advanced)
-```JavaScript
-=TC_ERROR("01:02:03:04", "23.976", "non-drop")
-```
-- Yields an error string if timecode (or format) is invalid, or an empty string otherwise.
-
-```JavaScript
-=TC_TO_FRAMEIDX("00:00:01:02", "50.00", "non-drop")
-```
-- Yields `52` (the timecode refers to the 53rd frame of video, counting from `00:00:00:00` as
-index 0). Dropped frames are not given index values (so in 29.97 drop, `00:00:59:29` has index
-`1799` and `00:01:00:02` has index `1800`).
-
-```JavaScript
-=FRAMEIDX_TO_TC(52, "50.00", "non-drop")
-```
-- Yields `"00:00:01:02"`, the timecode of the given frame index.
-
-```JavaScript
-=FRAMEIDX_TO_WALL_SECS(52, "50.00", "non-drop")
-```
-- Yields `1.04` secs (true seconds of wall time measured from `00:00:00:00`).
-
-```JavaScript
-=WALL_SECS_TO_FRAMEIDX_LEFT(1.041, "50.00", "non-drop")
-```
-- Yields `52`, the frame index of the closest frame that is exactly at or
-before (*i.e.* to the left of) the given `wallSecs` value of `1.041` (true seconds of
-wall time measured from `00:00:00:00`).
-
-```JavaScript
-=WALL_SECS_TO_FRAMEIDX_RIGHT(1.041, "50.00", "non-drop")
-```
-- Yields `53`, the frame index of the closest frame that is exactly at or
-after (*i.e.* to the right of) the given `wallSecs` value of `1.041` (true seconds of
-wall time measured from `00:00:00:00`).
