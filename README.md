@@ -45,9 +45,9 @@ Whenever you update the **start date** and **end date** cells, it will automatic
 <p align="center"><b><ins>NOTE: DO NOT EDIT EVENTS UNTIL AFTER THE CALENDAR HAS FINISHED UPDATING</ins></b></p>
 
 <p align="center">
-<img src="/../main/trip-details-date-change.gif" alt="trip-details-date-change-preview" style="width:45%;"/>
+<img src="/../main/gifs/trip-details-date-change.gif" alt="trip-details-date-change-preview" style="width:45%;"/>
   <br><br>
-<img src="/../main/calendar-date-change.gif" alt="calendar-date-change-preview" style="width:75%;"/>
+<img src="/../main/gifs/calendar-date-change.gif" alt="calendar-date-change-preview" style="width:75%;"/>
 </p>
 
 <br>
@@ -57,7 +57,7 @@ If you select **Yes** for **Need Passport?**, it will mark **red** next to each 
 <br>
 
 <p align="center">
-<img src="/../main/passport-check.png" alt="passport-check-preview" style="width:100%;"/>
+<img src="/../main/images/passport-check.png" alt="passport-check-preview" style="width:100%;"/>
 </p>
 
 <br>
@@ -67,9 +67,9 @@ Depending on your selection for **Miles** or **km** for, it will update the colu
 <br>
 
 <p align="center">
-<img src="/../main/miles_or_km.png" alt="calendarPreview" style="width:19%;"/>
-<img src="/../main/miles_or_km_02.png" alt="calendarPreview" style="width:30%;"/>
-<img src="/../main/miles_or_km_03.png" alt="calendarPreview" style="width:30%;"/>
+<img src="/../main/images/miles_or_km.png" alt="calendarPreview" style="width:19%;"/>
+<img src="/../main/images/miles_or_km_02.png" alt="calendarPreview" style="width:30%;"/>
+<img src="/../main/images/miles_or_km_03.png" alt="calendarPreview" style="width:30%;"/>
 </p>
 
 <br>
@@ -83,7 +83,7 @@ The *Travelers* sheet handles each traveler's information:
 <br>
 
 <p align="center">
-<img src="/../main/passport-check.png" alt="travelers-preview" style="width:100%;"/>
+<img src="/../main/images/passport-check.png" alt="travelers-preview" style="width:100%;"/>
 </p>
 
 <br>
@@ -93,7 +93,7 @@ The amount of money each traveler has paid in relationship to the trip's budget 
 <br>
 
 <p align="center">
-<img src="/../main/traveler-finance-preview.png" alt="finance-preview" style="width:60%;"/>
+<img src="/../main/images/traveler-finance-preview.png" alt="finance-preview" style="width:60%;"/>
 </p>
 
 <br>
@@ -109,7 +109,7 @@ This planner is structured by **events**. An **event** is a row containing all d
 <br>
 
 <p align="center">
-<img src="/../main/Events_Preview.png" alt="events-preview" style="width:100%;"/>
+<img src="/../main/images/Events_Preview.png" alt="events-preview" style="width:100%;"/>
 </p>
 
 <br>
@@ -125,9 +125,9 @@ Once you have inputted your events, you can update the calendar by clicking the 
 <p align="center"><b><ins>NOTE: DO NOT EDIT EVENTS UNTIL AFTER THE CALENDAR HAS FINISHED UPDATING</ins></b></p>
 
 <p align="center">
-<img src="/../main/update-calendar-events.gif" alt="update-calendar-events-preview" style="width:45%;"/>
+<img src="/../main/gifs/update-calendar-events.gif" alt="update-calendar-events-preview" style="width:45%;"/>
   <br><br>
-<img src="/../main/update-calendar-result.gif" alt="update-calendar-result-preview" style="width:75%;"/>
+<img src="/../main/gifs/update-calendar-result.gif" alt="update-calendar-result-preview" style="width:75%;"/>
 </p>
 
 ## CALENDAR
@@ -141,7 +141,7 @@ It showcases the distance travelled each day (useful for Road Trips), along with
 <br>
 
 <p align="center">
-<img src="/../main/Calendar_Preview.png" alt="calendar-preview" style="width:75%;"/>
+<img src="/../main/images/Calendar_Preview.png" alt="calendar-preview" style="width:75%;"/>
 </p>
 
 <br>
@@ -151,9 +151,9 @@ You can also update the calendar by clicking the **CLICK TO UPDATE CALENDAR** bu
 <p align="center"><b><ins>NOTE: DO NOT EDIT EVENTS UNTIL AFTER THE CALENDAR HAS FINISHED UPDATING</ins></b></p>
 
 <p align="center">
-<img src="/../main/update-calendar.gif" alt="update-calendar-preview" style="width:35%;"/>
+<img src="/../main/gifs/update-calendar.gif" alt="update-calendar-preview" style="width:35%;"/>
   <br><br>
-<img src="/../main/update-calendar-result.gif" alt="update-calendar-result-preview" style="width:75%;"/>
+<img src="/../main/gifs/update-calendar-result.gif" alt="update-calendar-result-preview" style="width:75%;"/>
 </p>
 
 ## FINANCE
@@ -164,7 +164,7 @@ The *Finance Sheet* outputs the financial information relevant to the trip:
 <br>
 
 <p align="center">
-<img src="/../main/finance-preview.png" alt="finance-preview" style="width:75%;"/>
+<img src="/../main/images/finance-preview.png" alt="finance-preview" style="width:75%;"/>
 </p>
 
 <br>
