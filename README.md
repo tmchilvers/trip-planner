@@ -4,7 +4,7 @@
 <br>
 <p align="center"><b>A SET OF GOOGLE CUSTOM FUNCTIONS FOR A DYNAMIC TRIP PLANNER SPREADSHEET</b></p>
 
-                            [DOWNLOAD](#create-your-own-vacation-planner)
+                      [DOWNLOAD](#create-your-own-vacation-planner)
 
 ---
 
@@ -25,7 +25,7 @@ While there are many great vacation planners online, I wanted to focus on two qu
 # SHEETS
 <p align="center"><b>DETAILED EXPLAINATION FOR EACH SHEET</b></p>
 
-          [• TRIP DETAILS](#trip-details)
+    [• TRIP DETAILS](#trip-details)
     [• TRAVELERS](#travelers)
     [• EVENTS](#events)
     [• CALENDAR](#calendar)
