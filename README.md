@@ -1,5 +1,5 @@
 # trip-planner
-**|**  v.01.01 **|  Author:** [Tristan Chilvers](https://www.tristanchilvers.com/) **| License:** [MIT License](LICENSE) **|**
+**|**  v.0.1.1  **|  Author:** [Tristan Chilvers](https://www.tristanchilvers.com/) **| License:** [MIT License](LICENSE) **|**
 
 <br>
 <p align="center"><b>A SET OF GOOGLE CUSTOM FUNCTIONS FOR A DYNAMIC TRIP PLANNER SPREADSHEET</b></p>
